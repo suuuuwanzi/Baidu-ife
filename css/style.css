@@ -157,7 +157,8 @@ left:185px;
 
 #footer{
 	background-color: #000000;
-	height:400px;
+	overflow: hidden;
+	height:auto;
 	width:100%;
 	margin:0 auto;
 }

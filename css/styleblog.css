@@ -1,0 +1,332 @@
+*{margin:0;padding:0;
+font-family: Microsoft Yahei,sans-serif;}
+
+#header{
+  width:100%;
+  background: #522A5C;
+  position: relative;
+}
+.headwrap{
+	width:980px;
+	margin:0 auto;
+	position: relative;
+	height: 80px;
+}
+
+.mylogo{
+	position: absolute;
+	font-size: 25px;
+    bottom: 10px;
+    left:10px;
+    color: #fff;
+}
+
+.links
+{
+	position: absolute;
+	right: 10px;
+	bottom:10px;
+	font-size: 16px;
+	font-family: Microsoft Yahei;
+
+}
+
+.links a{
+	color:#fff;
+	text-decoration: none;
+	margin: 0 10px;
+
+}
+
+
+.gitlogo{
+	clear: both;
+	position: absolute;
+	bottom:0px;
+	right: 20px;
+}
+
+.mainwrap{
+	width: 100%;
+	background-color: #EEE;
+    overflow: hidden;
+    height:auto;
+}
+.blog-center
+{
+	width:980px;
+    margin: 20px auto 0;
+    
+}
+
+.blog-content
+{
+	width: 710px;
+	float: left;
+    margin-right: 10px;
+}
+
+.blog-post
+{
+    position: relative;
+	background-color: #FFF;
+	margin-bottom: 10px;
+	padding:20px;
+
+}
+
+.tag{
+	position: absolute;
+	left:-50px;
+	width: 50px;
+	height:40px;
+	top:20px;
+	line-height: 40px;
+}
+
+.tag-date{background-color:#522A5C;
+  font-size: 15px;
+  color: #FFF;
+  	text-align: center;
+ }
+.tag-ex{
+	background-color: #A660B7;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;S
+}
+
+.blog-post h1{
+	font-size: 16px;
+	color: #522A5C;
+	margin-bottom: 10px;
+}
+
+.blog-post h2{
+	font-size: 12px;
+	color: #666;
+	margin-bottom: 20px;
+}
+.blog-post p{
+	text-indent: 2em;
+    line-height: 150%;
+    margin-bottom: 30px;
+    font-size: 8px;
+}
+
+.blog-post section{
+	text-align: right;
+	font-size: 8px;
+	color: #A2A2A2;
+}
+
+.num-wrap{
+	width:530px;
+	position: relative;
+	margin: 10px auto;
+}
+
+.number{
+	display: inline;
+	color: black;
+	font-size: 12px;
+	padding:12px 15px;
+	background-color: #FFF;
+	margin-right:0 5px;
+	text-align: center;
+}
+.num-wrap>div:last-child{margin-right:0px;}
+.number a{
+	text-decoration: none;
+	color:black;
+}
+.number-now{
+ color:#FFF;
+ background-color: #522A5C;
+}
+
+
+.sidebar-form{
+     width:260px;
+     float: right;
+     margin-bottom: 10px;
+     background-color: #fff;
+}
+
+.search{
+	position: relative;
+	border:#e2e2e2 1px solid;
+	margin: 20px;
+	font-size: 0;
+	height: 40px;
+}
+
+.keyword{
+	position: absolute;
+	top:0;
+	width:170px;
+	height: 40px;
+	border: none;
+	outline: medium;
+	background-image: url(../img/icon-github.png);
+	background-repeat: no-repeat;
+	background-size: 144px
+}
+
+.submit{
+       position: absolute;
+       top:0px;
+       right: 0px;
+       width:50px;
+       height: 40px;
+       border: none;
+       font-size: 18px;
+       color: #FFF;
+       background-color: #e2e2e2;
+}
+.search:hover{border:#000 1.5px solid;
+     
+}
+.submit:hover{background-color:#522A5C;}
+
+
+.post-type{
+	font-size: 14px;
+	color: #888;
+	line-height: 50px;
+	border-width: 0 0 1px 5px;
+	border-style: solid;
+	border-color:#DFC6E6;
+    height: 50px;
+    padding:  5px 0 5px 20px ;
+
+}
+
+.post-type:hover{
+
+	border-left-color:#522A5C;
+}
+
+.calendar{
+	margin:20px;
+	width:220px;
+	height: 220px;
+	text-align: center;
+	border-collapse: collapse;
+	color:#888;
+	font-size: 12px;
+}
+.calendar tr{
+	border-bottom:#DFC6E6 2px solid; 
+}
+.calendar-dark{font-weight: bold;
+color:#522A5C;}
+
+.today{
+	color:#fff;
+	background-color:#522A5C; 
+}
+
+.side-tag{
+	box-sizing:border-box;
+	padding:15px;
+	margin-bottom: 100px;
+}
+
+.tag-title
+{
+	font-size: 12px;
+	color:#888;
+	margin-bottom: 20px;
+}
+.tag-item{
+	color:#522A5C;
+	font-size:15px;
+}
+
+.tagmore{
+
+	font-size:30px;
+}
+.tagless{
+	font-size: 20px;
+}
+
+
+
+
+
+
+#footer{
+	background-color: #000000;
+	overflow: hidden;
+	height:auto;
+	width:100%;
+	margin:0 auto;
+}
+
+.footnav ul{
+ 	float:left;
+ 	position: relative;
+ 	left:50%;
+ 	margin:10px 0;
+ 	list-style: none;
+}
+.footnav li{
+display: inline;
+float:left;
+position:relative;
+right:50%;
+margin:0 12px;
+}
+.footnav a:link{
+	color:#FFFFFF;
+	text-decoration: none;
+}
+
+.footnav a:visited{
+	color:#FFFFFF;
+	text-decoration: none;
+}
+.lianjie{clear:left;
+width:980px;
+margin:0 auto;
+overflow: hidden;
+text-align: center;
+}
+
+.lianjie hr{
+	border:none;
+	border-top:1px solid #e2e2e2;
+}
+
+.link-item{
+	float:left;
+	width:196px;
+}
+.link-title{
+	color:#FFFFFF;
+	margin:40px 0 30px;
+	font-size: 13px;
+}
+.link-content{
+	line-height: 170%;
+}
+a{
+	color:#fff;
+	text-decoration: none;
+}
+
+.copyright{
+	text-align: center;
+
+}
+
+.copyright p{
+	color:#FFFFFF;
+	margin:90px 0 20px 0;
+}
+.copyright img{
+
+	margin:0px;
+}

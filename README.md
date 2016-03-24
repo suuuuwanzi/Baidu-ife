@@ -63,3 +63,29 @@ Answer:父级元素overflow:hidden
 3、<div>...</div>封闭的错误导致出了很多问题  主要出现在message部分  3个大的div块的封闭错误的写成了</div>   令后面的盒子整个凌乱了 
 
 4、如何让头像部分在灰色背景区域显示出来
+
+
+
+
+
+2016.03.23
+开始写blog.html，是一个两列格局，吸取写index时候遇到的定位、浮动问题，争取这次写的更适应改变。
+
+1、header 部分的定位问题
+logo和link在写index时候采用浮动方法，及时设置了bottom的值他们也不会在自身该在的位置上，让我十分头疼
+
+此次写将 headwrap 设置为relative，将logo和link设置为absolute，设置好下方距离后，发现两个都飞出了header部分，此时将headwrap设置 height值后，二者又出现在了原本该处在的位置上。
+
+
+2、让右侧第二栏的内容在div中垂直居中的方法
+1、行高（line-height）法
+如果要垂直居中的只有一行或几个文字，那它的制作最为简单，只要让文字的行高和容器的高度相同即可，比如：
+
+p { height:30px; line-height:30px; width:100px; overflow:hidden; }
+这段代码可以达到让文字在段落中垂直居中的效果。
+
+
+3、div不设置高度时 如何给主体部分设置背景颜色
+
+将父类设置{overflow: hidden;
+	height:auto;}
